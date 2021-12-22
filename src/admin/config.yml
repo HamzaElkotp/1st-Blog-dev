@@ -20,5 +20,5 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
-      - { label: "Tags", name: "tags", widget: "list", default: ["Ar"]}
+      - { label: "Tags", name: "tags", widget: "list", default: ["article"]}
       - { label: "Body", name: "body", widget: "markdown" }

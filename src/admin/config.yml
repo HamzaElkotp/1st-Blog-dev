@@ -9,16 +9,16 @@ public_folder: "/assets/blog"
 
 collections:
   - name: "blog"
-      label: "Blog"
-      folder: "src/blog"
-      create: true
-      slug: "{{year}}-{{month}}-{{day}}}"
-      fields:
-        - { label: "Title", name: "title", widget: "string" }
-        - { label: "Description", name: "description", widget: "string" }
-        - { label: "Author", name: "author", widget: "string" }
-        - { label: "Date", name: "date", widget: "list", default: "عربي | Ar" }
-        - { label: "Tags", name: "tags", widget: "datetime" }
-        - { label: "Featured Image", name: "image", widget: "image" }
-        - { label: "Image caption", name: "imageAlt", widget: "string" }
-        - { label: "Body", name: "body", widget: "markdown" }
+    label: "Blog"
+    folder: "src/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Date", name: "date", widget: "list", default: "عربي | Ar" }
+      - { label: "Tags", name: "tags", widget: "datetime" }
+      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Image caption", name: "imageAlt", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }

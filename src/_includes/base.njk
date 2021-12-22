@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="../style.css">
+    <title>{{ title }}</title>
+</head>
+<body>
+    {% include 'header.njk' %}
+
+    <main>
+    {{ content | safe }}
+    </main>
+    {# لازم تضيف الSave عشان مياخدش الكود كا String #}
+
+    {# {{}} = grap information, {%%} = grap a file #}
+
+    {% include 'footer.njk' %}
+</body>
+</html>
+<script>
+  document.getElementById("year").innerHTML = `${new Date().getFullYear()}`
+  document.getElementById("company").innerHTML = `HamzaDev`
+</script>
+{# دي بنستخدمها عشان نحول المشروع ل تمبلت وزيها زي JSX #}

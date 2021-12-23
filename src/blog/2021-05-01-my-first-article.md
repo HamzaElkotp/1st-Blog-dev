@@ -9,7 +9,7 @@ date: 2021-05-01
 image: /assets/blog/article-1.jpg
 imageAlt: This is a test
 tags:
-  - articel
+  - article
   - post
   - featured
 ---
